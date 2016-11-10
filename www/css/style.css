@@ -1,0 +1,136 @@
+/* Empty. Add your own CSS if you like */
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS
+ *
+ */
+
+ion-pane {			/* Change width and height to own preferences */
+	
+	overflow: hidden;
+	background: linear-gradient(#4CA1AF, #C4E0E5);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 0;
+	/*background: lightgray;*/
+}
+
+.container {
+	
+	height: auto;
+	overflow: hidden;
+	background-image: url('../img/grassBorder.png');
+	background-repeat: repeat-x;
+	background-position:bottom;
+	background-size:400px;
+}
+
+.slider {
+	width: 800px;
+	height: auto;
+}
+
+#divLeft, #divRight {
+	float: left;
+}
+
+ul{
+	text-transform: capitalize;
+}
+
+h4{
+	margin: 0;
+	text-transform: capitalize;
+	font: 15px helvetica;
+}
+
+#div-poke{
+	width: 55%;
+	padding: 15px;
+	float:left;
+}
+
+#image{
+	width: 35%;
+	float:left;
+}
+
+#poke-icon{
+	width: 100%;
+}
+
+#btn-back, #btn-poke{
+	padding: 7px 7px;
+	background: #E84946;
+	border: none;
+	color: white;
+	border-radius: 8px;
+	transition-duration: 0.1s;
+}
+#btn-back:hover, #btn-poke:hover{
+	background-color: #f26a65;
+	box-shadow: 0 1.5px 1.5px 0 rgba(0,0,0,0.24), 0 1.5px 1.5px 0 rgba(0,0,0,0.19);
+}
+#btn-back:active, #btn-poke:active{
+	background-color: #c42c2b;
+}
+
+input{
+  	padding: 7px;
+  	margin: 9.5px 1px 3px 0px;
+  	border: 1px solid rgb(61, 175, 210);
+	float:left;
+	border-radius: 8px;
+	color:black;
+	outline: none;
+	padding: 7px;
+	width: 70%;
+	box-shadow: 0 0 2.5px rgb(61, 175, 210);
+}
+
+
+.header{
+	width: 97%;
+}
+
+.header-content{
+	width: 80%;
+	float:left;
+}
+
+.header-btn{
+	
+	width: 20%;
+	float: left;
+}
+
+.loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("../img/loading.gif");
+		background-size: 160px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panel{
+	
+	border: 1px gray solid;
+	border-radius: 8px;
+	padding: 0 5px;
+	float: left;
+	background: whitesmoke;
+	height: auto;
+}
+
+.panel p{
+	font: 17px helvetica;
+	color: #3c3c3c;
+	text-transform: capitalize;
+}
